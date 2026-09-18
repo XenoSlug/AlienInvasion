@@ -1,7 +1,17 @@
-# Alien Invasion
+# Alien Invasion — clean rewrite
 
-Responsive HTML5 arcade shooter: https://xenoslug.github.io/AlienInvasion/
+Play: https://xenoslug.github.io/AlienInvasion/
 
-Features: reliable pause/resume, escalating waves, scout/zigzag/tank enemies, multi-phase bosses, lives, health, powerups, run skills, persistent credits, and a permanent upgrade bay.
+This branch replaces the accumulated legacy runtime with a small dependency-free canvas game.
 
-Controls: arrows/A-D move; Space/Enter/controller A fire; P/Escape/controller Menu pauses and saves; fire/A resumes; U/controller Y opens permanent upgrades on the title screen; K/controller X opens run skills during a run.
+- Responsive 480×720 logical canvas
+- Keyboard, touch, and Gamepad API controls with fallback glyphs
+- Explicit menu, play, pause, skills, upgrade, and game-over states
+- Pause freezes all gameplay and resumes with Fire/A
+- Escalating enemy waves and repeatable two-phase bosses
+- Scout, zigzag, and tank enemies
+- Lives, health, shields, health/weapon/rapid-fire powerups
+- Persistent credits and permanent max-health upgrades
+- In-run rapid-fire skill purchased with score
+
+Controls: arrows or A/D move; Space/Enter/controller A fires; P/Escape pauses; K/controller X opens run skills; U/controller Y opens the upgrade bay on the main menu.
