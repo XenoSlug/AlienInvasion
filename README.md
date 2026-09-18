@@ -1,26 +1,18 @@
-Alien Invasion
-==============
-This is the sample game that is built in the first three Chapter of
-mobile HTML5 Game Development.
+# Alien Invasion
 
-It is released under both the GPL and MIT license to do with what you will.
+A responsive HTML5 arcade shooter based on the original mobile game demo.
 
-Playable Version: 
-http://cykod.github.com/AlienInvasion/
+**Play it now:** [xenoslug.github.io/AlienInvasion/](https://xenoslug.github.io/AlienInvasion/)
 
-Bit.ly link for mobile: 
-http://bit.ly/html5-invasion
+## Features
 
+- Responsive 320×480 game space that scales cleanly to phones, tablets, desktop, portrait, and landscape.
+- Keyboard controls: **Arrow keys** or **A/D** to move, **Space/Enter** to fire, **P** or **Escape** to pause.
+- Touch controls on mobile devices.
+- Gamepad support through the browser Gamepad API, including standard controller button glyphs.
+- Combo-based scoring, enemy score values, powerups, armor, and permanent upgrade currency.
+- A multi-stage boss fight at the end of each run.
+- Automatic save/resume with `localStorage` when pausing or leaving a run.
+- Mid-run powerups: rapid fire, spread shot, and shield.
 
-If you make an interesting fork or enhancement of the game, let me know and it'll get
-linked to here. This original repo will stay matching the code in the book.
-
-For more  [HTML5 Game Development](http://www.html5gamedevelopment.org) resources, see:
-
-* [HTML5 Game Demos](http://www.html5gamedevelopment.org/html5-demos)
-* [HTML5 GameDev Tutorials](http://www.html5gamedevelopment.org/html5-game-tutorials)
-* [HTML5 Game Development News](http://www.html5gamedevelopment.org/html5-news)
-* [HTML5 Game Engines](http://www.html5gamedevelopment.org/html5-engines)
-
-
-
+The project remains dependency-free and can be served from any static web host, including GitHub Pages.
